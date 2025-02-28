@@ -1,0 +1,23 @@
+body {
+  background-color: cadetblue;
+  text-align: center;
+  font-family: 'Staatliches' cursive;
+}
+
+h1 {
+  font-size: 20pt;
+  margin-bottom: 134px;
+}
+
+p {
+  font-size: 10pt;
+}
+
+.red-text {
+  color: red;
+}
+
+#lname {
+  font-size: 100pts;
+  color: blue;
+}
