@@ -1,0 +1,10 @@
+body {
+  background: url('img/Neuroplasticity.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}

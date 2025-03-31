@@ -1,0 +1,17 @@
+body {
+  /* background-image: linear-gradient(
+      rgba(152, 137, 137, 0.174),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('img/Question-mark.jpg'); */
+  /* background-image: url('img/Question-mark3.jpg'); */
+
+  background: url('img/HTML_CSS.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}

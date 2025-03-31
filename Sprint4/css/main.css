@@ -10,11 +10,19 @@ header {
 }
 
 /* body {
-  background-image: linear-gradient(
+ background-image: linear-gradient(
       rgba(152, 137, 137, 0.174),
       rgba(0, 0, 0, 0.7)
     ),
-    url(img/JS_Wallpaper.jpg);
+    url('img/Question-mark.jpg'); 
+   background-image: url('img/Question-mark3.jpg'); 
+
+  background: url('img/Question-mark.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
 } */
@@ -37,14 +45,24 @@ h2 {
 
   /* margin-left: 20px; */
 }
-h3,
-h4 {
-  /* color: rgba(29, 31, 29, 0.868); */
-  color: rgba(241, 245, 241, 0.868);
+
+h3 {
+  margin-top: 2px;
   margin-bottom: 0;
-  padding-top: 8px;
-  padding-bottom: 2px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
+
+h4 {
+  /* color: rgba(241, 245, 241, 0.868); */
+  margin-top: 3px;
+  margin-bottom: 0;
+  padding-top: 2px;
+  padding-bottom: px;
+
+  /* margin-left: 20px; */
+}
+
 p {
   font-size: 10pt;
   margin-top: 0;
@@ -54,12 +72,11 @@ p {
 ul.sq {
   list-style-type: square;
 }
-.red-text {
-  color: red;
+
+.white-text {
+  color: rgb(232, 232, 241);
 }
-.black-text {
-  color: rgb(23, 5, 5);
-}
+
 .container {
   /* position: absolute; */
   width: 1140px;

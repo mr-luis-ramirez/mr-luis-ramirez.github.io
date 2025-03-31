@@ -51,7 +51,6 @@ h1 {
   font-size: 240%;
   word-spacing: 4px;
   letter-spacing: 1px;
-  text-align: left;
 }
 
 h2 {
@@ -77,10 +76,10 @@ h2:after {
   margin-top: 30px;
 }
 
-/* .div1 {
+.div1 {
   color: rgb(162, 200, 95);
   text-align: justify;
-} */
+}
 
 /* ----- PARAGRAPHS ----- */
 .long-copy {
@@ -116,7 +115,7 @@ a:active {
 /* HEADER */
 /* ----------------------------------------------- */
 
-/* header {
+header {
   background-image: -webkit-linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
@@ -128,7 +127,7 @@ a:active {
   background-position: center;
   height: 100vh;
   background-attachment: fixed;
-} */
+}
 
 .hero-text-box {
   position: absolute;
@@ -138,9 +137,6 @@ a:active {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-
-  color: rgb(162, 200, 95);
-  text-align: justify;
 }
 
 /* Main navi */
@@ -161,7 +157,7 @@ a:active {
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 70%;
+  font-size: 90%;
   border-bottom: 2px solid transparent;
   -webkit-transition: border-bottom 0.2s;
   transition: border-bottom 0.2s;
