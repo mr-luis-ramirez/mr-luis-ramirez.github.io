@@ -1,0 +1,25 @@
+body {
+  background: url('img/te-whare-tapa-wha-illustration5.jpg') no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table,
+td,
+th {
+  border: 1px solid;
+  padding: 2px;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+}
+tr:hover {
+  background-color: rgb(173, 155, 115);
+}
